@@ -1,3 +1,5 @@
+const __DEV__ = process.env.NODE_ENV === "development"
+
 module.exports = {
   // App Info
   appstore_link: "https://lingvograph.com", // Enter App Store URL.
@@ -5,7 +7,7 @@ module.exports = {
   google_analytics_ID: "UA-47311644-5", // Enter Google Analytics ID or ""
   video_or_screenshot: "screenshot", // "screenshot" or "video"
   app_url: "https://lingvograph.com", // Domain of your website without path_prefix.
-  path_prefix: "/site/", // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
+  path_prefix: __DEV__ ? "/" : "/site/", // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name: "LingvoGraph",
   app_price: "Free",
   app_description: "Automatically generate GatsbyJS app landing pages.",
