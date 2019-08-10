@@ -2,6 +2,7 @@ const urljoin = require("url-join")
 const configs = require("./site-config")
 
 module.exports = {
+  pathPrefix: configs.path_prefix,
   siteMetadata: {
     siteUrl: urljoin(configs.app_url, configs.path_prefix),
     title: configs.app_name,
@@ -35,8 +36,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: configs.google_analytics_ID
-      }
+        trackingId: configs.google_analytics_ID,
+      },
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
