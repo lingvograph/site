@@ -10,7 +10,7 @@ module.exports = {
   path_prefix: PATH_PREFIX, // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name: "LingvoGraph",
   app_price: "Free",
-  app_description: "Improve your second languages with Knowledge Graph",
+  app_description: "Improve your second languages with Social Knowledge Graph",
   app_keywords: ["automatic", "gatsbyjs", "app", "landing page"],
 
   // Personal Info
@@ -29,22 +29,22 @@ module.exports = {
   features: [
     {
       title: "Big Knowledge Graph",
-      description: "You can share you knowledge",
+      description: "You can get and share knowledge",
       fontawesome_icon_name: "magic",
     },
     {
       title: "Social Network",
       description:
-        "Graph contains social data. So you can like and make trends",
+        'Graph contains social data. So you can make "likes" and make trends',
       fontawesome_icon_name: "play-circle",
     },
     {
       title: "Audio Sharing",
-      description: "You can share your lovely voice",
+      description: "You can share your lovely voice and listen popular voices",
       fontawesome_icon_name: "mobile",
     },
     {
-      title: "Photo Sharing",
+      title: "Photo and Video Sharing",
       description:
         "You can share your visual associations with given words/phrases",
       fontawesome_icon_name: "sync",
@@ -52,7 +52,7 @@ module.exports = {
     {
       title: "Free Data",
       description:
-        "Data aggregated from internet are free. You can decide whether your own data is free or should be accessibly only for premium users",
+        "Data aggregated from internet are free. You can decide whether your own data is free or should be available only for premium users",
       fontawesome_icon_name: "star",
     },
     {
