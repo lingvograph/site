@@ -508,7 +508,7 @@ export default createGlobalStyle`
   }
 
   .footerIcons {
-    padding-bottom: 70px;
+    padding: 50px 0;
     display: flex;
   }
 

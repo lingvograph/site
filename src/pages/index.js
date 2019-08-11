@@ -16,9 +16,7 @@ const IndexPage = ({ data }) => (
     <div
       className="imageWrapper"
       style={{
-        backgroundImage: `linear-gradient(${configs.cover_overlay_color_rgba},${
-          configs.cover_overlay_color_rgba
-        }),url(${data.headerImage.childImageSharp.fluid.src})`,
+        backgroundImage: `linear-gradient(${configs.cover_overlay_color_rgba},${configs.cover_overlay_color_rgba}),url(${data.headerImage.childImageSharp.fluid.src})`,
       }}
     >
       <div className="headerBackground">
@@ -166,9 +164,7 @@ const IndexPage = ({ data }) => (
                       <span className="fa-stack fa-1x">
                         <i className="iconBack fas fa-circle fa-stack-2x" />
                         <i
-                          className={`iconTop fas fa-${
-                            feature.fontawesome_icon_name
-                          } fa-stack-1x`}
+                          className={`iconTop fas fa-${feature.fontawesome_icon_name} fa-stack-1x`}
                         />
                       </span>
                     </div>
@@ -183,15 +179,6 @@ const IndexPage = ({ data }) => (
             })}
           </div>
           <footer>
-            <p className="footerText">
-              Made by{" "}
-              {configs.your_link ? (
-                <a href={configs.your_link}>{configs.your_name}</a>
-              ) : (
-                `${configs.your_name}`
-              )}
-              {configs.your_city && ` in ${configs.your_city}`}
-            </p>
             <div className="footerIcons">
               {configs.facebook_username && (
                 <a
