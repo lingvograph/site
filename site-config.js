@@ -5,7 +5,7 @@ module.exports = {
   appstore_link: "https://lingvograph.com", // Enter App Store URL.
   playstore_link: "https://lingvograph.com", // Enter Google Play Store URL.
   google_analytics_ID: "UA-47311644-5", // Enter Google Analytics ID or ""
-  video_or_screenshot: "screenshot", // "screenshot" or "video"
+  video_or_screenshot: "video", // "screenshot" or "video"
   app_url: "https://lingvograph.com", // Domain of your website without path_prefix.
   path_prefix: __DEV__ ? "/" : "/site/", // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name: "LingvoGraph",
