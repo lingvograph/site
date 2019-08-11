@@ -10,7 +10,7 @@ module.exports = {
   path_prefix: __DEV__ ? "/" : "/site/", // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name: "LingvoGraph",
   app_price: "Free",
-  app_description: "Automatically generate GatsbyJS app landing pages.",
+  app_description: "Improve your second languages with Knowledge Graph",
   app_keywords: ["automatic", "gatsbyjs", "app", "landing page"],
 
   // Personal Info
@@ -28,57 +28,37 @@ module.exports = {
   // Features List
   features: [
     {
-      title: "GitHub Pages GatsbyJS Starter",
-      description:
-        "Designed for GitHub Pages and Netlify. Fork. Edit site-config.js. Upload screenshot/video. Push to gh-pages branch. Voilà!",
+      title: "Big Knowledge Graph",
+      description: "You can share you knowledge",
       fontawesome_icon_name: "magic",
     },
     {
-      title: "iPhone Device Preview",
+      title: "Social Network",
       description:
-        "Preview your app in the context of an iPhone device. Five different device colors included.",
-      fontawesome_icon_name: "mobile",
-    },
-    {
-      title: "Video Support",
-      description:
-        "Preview app video on the iPhone device simply by placing your video files in the videos folder.",
+        "Graph contains social data. So you can like and make trends",
       fontawesome_icon_name: "play-circle",
     },
     {
-      title: "Optimized Performance",
+      title: "Audio Sharing",
+      description: "You can share your lovely voice",
+      fontawesome_icon_name: "mobile",
+    },
+    {
+      title: "Photo Sharing",
       description:
-        "No need to worry about page performance or optimizing images and videos. Everything is already configured for the best performance possible!",
+        "You can share your visual associations with given words/phrases",
       fontawesome_icon_name: "sync",
     },
     {
-      title: "Easy to Tweak",
+      title: "Free Data",
       description:
-        "Tweak accent color, images, icons and transparency via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "adjust",
-    },
-    {
-      title: "Feature List",
-      description:
-        "Add features (like this one) to your site via the site-config.js file. No HTML/CSS needed.",
+        "Data aggregated from internet are free. You can decide whether your own data is free or should be accessibly only for premium users",
       fontawesome_icon_name: "star",
     },
     {
-      title: "Deploy to Netlify",
-      description: "Easily deploy your GatsbyJS landing page to Netlify.",
-      fontawesome_icon_name: "arrow-alt-circle-down",
-    },
-    {
-      title: "Social Links",
-      description:
-        "Easily add social media accounts and contact info in the footer via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "link",
-    },
-    {
-      title: "FontAwesome Support",
-      description:
-        "Pick custom Font Awesome icons for the feature list via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "info-circle",
+      title: "Android and iOS apps",
+      description: "Optimized Android and iOS apps to explore the graph data",
+      fontawesome_icon_name: "adjust",
     },
   ],
   header_background: "rgba(0, 0, 0, 0.1)",
