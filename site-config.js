@@ -1,4 +1,4 @@
-const __DEV__ = process.env.NODE_ENV === "development"
+const PATH_PREFIX = process.env.PATH_PREFIX || "/"
 
 module.exports = {
   // App Info
@@ -7,7 +7,7 @@ module.exports = {
   google_analytics_ID: "UA-47311644-5", // Enter Google Analytics ID or ""
   video_or_screenshot: "video", // "screenshot" or "video"
   app_url: "https://lingvograph.com", // Domain of your website without path_prefix.
-  path_prefix: __DEV__ ? "/" : "/site/", // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
+  path_prefix: PATH_PREFIX, // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name: "LingvoGraph",
   app_price: "Free",
   app_description: "Improve your second languages with Knowledge Graph",
