@@ -9,12 +9,13 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import GlobalStyle from "./style.js"
+import ErrorBoundary from "./ErrorBoundary"
 
 const Layout = ({ children }) => (
-  <>
+  <ErrorBoundary>
     <GlobalStyle />
     {children}
-  </>
+  </ErrorBoundary>
 )
 
 Layout.propTypes = {
